@@ -1,9 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    color: white;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header, section h2{
+    font-family: "Bungee", sans-serif;
 }
 
 header{
@@ -12,10 +19,18 @@ header{
     color: #ecf0f1;
 }
 
+header h1, section h2{
+    font-weight: normal;
+}
+
 header nav li{
     display: inline;
     margin-left: 16px;
     font-size: 14px;
+}
+
+header nav li a{
+    color: #ffffff;
 }
 
 .container{
@@ -24,8 +39,40 @@ header nav li{
     margin: 0 auto;
 }
 
-header .container{
+header .container, section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+
+.list img{
+    height: 24px;
+}
+
+.list li{
+    display: inline;
+    margin-left: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section {
+    margin-bottom: 8px;
+    color: #182c61;
+}
+
+section #img_loja{
+    margin-right: 32px;
+}
+
