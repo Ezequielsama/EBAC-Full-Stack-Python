@@ -1,4 +1,0 @@
-git checkout -b exercicio_css
-git add "Ebac Projeto 01 html/"
-git commit -m "Adicionar pasta Ebac Projeto 01 html"
-git push -u origin main
