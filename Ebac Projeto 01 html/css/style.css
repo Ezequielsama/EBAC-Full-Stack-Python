@@ -5,22 +5,19 @@
     text-decoration: none;
 }
 
-body{
+body, input, textarea{
     font-family: "Roboto", sans-serif;
 }
 
-header, section h2{
+header, section h2, section h3, form button{
     font-family: "Bungee", sans-serif;
+    font-weight: normal;
 }
 
 header{
     padding: 16px 0;
     background-color: #182c61;
     color: #ecf0f1;
-}
-
-header h1, section h2{
-    font-weight: normal;
 }
 
 header nav li{
@@ -30,7 +27,7 @@ header nav li{
 }
 
 header nav li a{
-    color: #ffffff;
+    color: #ecf0f1;
 }
 
 .container{
@@ -66,9 +63,10 @@ section{
 section h2{
     margin-bottom: 16px;
 }
-
-section {
+section p{
     margin-bottom: 8px;
+}
+section {
     color: #182c61;
 }
 
@@ -76,3 +74,57 @@ section #img_loja{
     margin-right: 32px;
 }
 
+.social img{
+    height: 24px;
+}
+
+.social li{
+    display: inline;
+    margin-left: 18px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-met{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form textarea:focus, form input:focus{
+    outline-color: #182c61;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+}
+
+form button:hover{
+    background-color: #3a5499;
+}
+
+footer{
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
