@@ -1,0 +1,440 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ecf0f1;
+    transition: 0.3s ease-in-out;
+}
+header{
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+img{
+    cursor: pointer;
+}
+
+#top-site{
+    position: fixed;
+    right: 15px;
+    bottom: 30px;
+    width: auto;
+    height: 100px;
+    mix-blend-mode: multiply;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+header nav li a{
+    color: #070707;
+    
+    font-family:Arial, Helvetica, auto;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 15%;
+}
+
+header .container{
+    position: fixed;
+    width: 100%;
+}
+
+header .container #logo{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #b0e3f1;
+    padding: 16px 0;
+}
+header .container #logo h1{
+    margin-left: 16px;
+    
+}
+
+header .container #adventure{
+    padding: 73px;
+    margin-left: 15px;
+    background: url("../img/558c9dac2c959d1707e909e859362b3c.jpg") no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    transition: 0.3s ease-in-out;
+    mix-blend-mode: multiply;
+    padding-bottom: 0px;
+}
+
+
+header .container #logo #adventure:hover{
+    padding: 73px;
+    background: url("../img/adventure-time-finn.gif") no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    transition: 0.3s ease;
+    mix-blend-mode: multiply;
+    padding-bottom: 0px;
+}
+
+
+
+/* reino gelado*/
+
+section #reino-gelo{
+    position: relative;
+    background: linear-gradient(#5496D0, #2E62AE);
+    width: 100%;
+    height: 100%;
+    top: 100px;
+}
+
+#reino-gelo {
+    position: relative;
+    background: linear-gradient(#2E62AE, #5496D0);
+    width: 100%;
+    padding: 20px;
+}
+
+#reino-gelo .content {
+    display: flex;
+    align-items: flex-start;
+}
+
+#reino-gelo img {
+    width: auto;
+    height: 330px;
+    margin-right: 20px;
+}
+
+#reino-gelo .text {
+    max-width: calc(100% - 220px);
+}
+#reino-gelo .text p,h2{
+    color: #fff;
+}
+#reino-gelo .text h2{
+    margin-bottom: 5px;
+    margin-top: 18px;
+}
+
+#reino-gelo #kande {
+    position: relative;
+    height: 60px;
+    margin-left: 85%;
+}
+
+
+@keyframes moveReiGelo {
+    0% {
+        position: relative;
+        margin-left: 1%;
+        top: 5px;
+        transition: 0.3s ease;
+    }
+    50% {
+        position: relative;
+        margin-left: 20%;
+        top: 20px;
+        
+        transition: 0.3s ease;
+    }
+    100% {
+        position: relative;
+        margin-left: 65%;
+        top: 145px;
+        transition: 0.3s ease;
+    }
+}
+
+
+#reino-gelo #rei {
+    position: relative;
+    height: 60px;
+    animation-name: moveReiGelo;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: initial;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+#reino-gelo .text h2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+
+/* reino gelado*/
+
+section #reino-jujupa{
+    position: relative;
+    background: linear-gradient(#2E62AE, #da6ce9, #da6ce9, #da6ce9); 
+    width: 100%;
+    height: 100%;
+    top: 100px;
+}
+
+#reino-jujupa {
+    position: relative;
+    background: linear-gradient(#2E62AE, #5496D0);
+    width: 100%;
+    padding: 20px;
+}
+
+#reino-jujupa .content {
+    display: flex;
+    align-items: flex-start;
+}
+
+#reino-jujupa img {
+    width: auto;
+    height: 330px;
+    margin-right: 20px;
+}
+
+#reino-jujupa .text {
+    max-width: calc(100% - 220px);
+}
+#reino-jujupa .text p,h2{
+    color: #fff;
+}
+#reino-jujupa .text h2{
+    margin-bottom: 5px;
+    margin-top: 18px;
+}
+
+#reino-jujupa .text h2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#reino-jujupa #bubblegum {
+    height: 60px;
+}
+
+#reino-jujupa #Jake {
+    height: 150px;
+
+}
+#reino-jujupa #adventure {
+    height: 150px;
+
+}
+
+#reino-jujupa #img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    margin-left: 55%;
+}
+
+
+/* reino gelado*/
+
+section #reino-fogo{
+    position: relative;
+    background: linear-gradient(#da6ce9, #fd0000, #fd0000, #fd0000);
+    width: 100%;
+    height: 100%;
+    top: 100px;
+}
+
+
+#reino-fogo {
+    position: relative;
+    background: linear-gradient(#2E62AE, #5496D0);
+    width: 100%;
+    padding: 20px;
+}
+
+#reino-fogo .content {
+    display: flex;
+    align-items: flex-start;
+}
+
+#reino-fogo img {
+    width: auto;
+    height: 330px;
+    margin-right: 20px;
+}
+
+#reino-fogo .text {
+    max-width: calc(100% - 220px);
+}
+#reino-fogo .text p,h2{
+    color: #fff;
+}
+#reino-fogo .text h2{
+    margin-bottom: 5px;
+    margin-top: 18px;
+}
+
+#reino-fogo .text h2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#reino-fogo #fogo {
+    height: 90px;
+    
+}
+
+#reino-fogo #ladrando {
+    height: 150px;
+
+}
+#reino-fogo #adventure {
+    height: 150px;
+
+}
+
+#reino-fogo #img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    margin-left: 55%;
+}
+
+
+/* reino gelado*/
+
+section #reino-Gosma{
+    position: relative;
+    background: linear-gradient(#fd0000, #0bad26, #0bad26, #0bad26);
+    width: 100%;
+    height: 100%;
+    top: 100px;
+}
+
+
+#reino-Gosma {
+    position: relative;
+    background: linear-gradient(#2E62AE, #5496D0);
+    width: 100%;
+    padding: 20px;
+}
+
+#reino-Gosma .content {
+    display: flex;
+    align-items: flex-start;
+}
+
+#reino-Gosma img {
+    width: auto;
+    height: 330px;
+    margin-right: 20px;
+}
+
+#reino-Gosma .text {
+    max-width: calc(100% - 220px);
+}
+#reino-Gosma .text p,h2{
+    color: #fff;
+}
+#reino-Gosma .text h2{
+    margin-bottom: 5px;
+    margin-top: 18px;
+}
+
+#reino-Gosma .text h2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#reino-Gosma #Slime {
+    height: 90px;
+    
+}
+
+#reino-Gosma #povo_gosma {
+    height: 150px;
+}
+
+#reino-Gosma #img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    margin-left: 55%;
+}
+
+/* roy*/
+
+#contact .container{
+    display: block;
+    background-color: #3a5499;
+    background: linear-gradient(#0bad26, #3a5499, #3a5499, #3a5499);
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.container h2{
+    margin-left: 5%;
+}
+.contact-met{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form textarea:focus, form input:focus{
+    outline-color: #182c61;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+}
+
+form button:hover{
+    background-color: #3a5499;
+}
+
+footer{
+    background-color: #3a5499;
+}
+
+footer p{
+    position: relative;
+    margin-left: 35%;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+}
