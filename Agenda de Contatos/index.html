@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Agenda de Contatos</title>
+</head>
+<body>
+
+    <div id="conteiner">
+        <header id="cabecalho">
+            <img src="img/contacts_3.ico" alt="">
+            <h1>Agenda de Contatos</h1>
+        </header>
+
+        <form id="formContatos">
+            <input placeholder="Nome" type="text" required id="NomeCompleto" maxlength="33" autocomplete="off">
+            <input placeholder="Telefone" type="text" required  id="Telefone" autocomplete="off" maxlength="20" minlength="20">
+
+            <button type="submit"><img src="img/phone-button_2.ico" alt=""></button>
+        </form>
+
+        <div class="ListaContado">
+            <h2>lista de Contados</h2>
+            <ul id="list">
+            </ul>
+        </div>
+    </div>
+
+
+        <script src="script.js"></script>
+
+</body>
+</html>

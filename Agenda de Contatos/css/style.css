@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 70%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#conteiner{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#cabecalho{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    & img{
+        position: relative;
+        height: 55px;
+        margin-right: 5px;
+        top: -13px;
+    }
+    & h1{
+        font-size: 34px;
+        font-weight: bold;
+        margin-bottom: 23px;
+    }
+}
+
+#formContatos{
+    position: relative;
+    font-family: "Arial";
+    display: flex;
+
+    & button{
+        position: relative;
+        background-color: #00000000;
+        border: 0;
+        cursor: pointer;
+    }
+    & button img{
+        position: relative;
+        height: 45px;
+        left: 15px;
+    }
+}
+
+input{
+    width: 326px;
+    margin: 3px 0;
+    padding: 15px;
+    padding-bottom: 0;
+    color: #969696;
+    cursor: text;
+    border: 0;
+    border-bottom: 2px solid #4e4d4d;
+    outline: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#NomeCompleto{
+    margin-right: 30px;
+}
+
+input:focus, input:valid{
+    border-bottom: 2px solid #4d89fa;
+}
+
+
+input::placeholder{
+    color: #4e4d4d;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    text-transform: capitalize;
+}
+
+input:focus::placeholder{
+    color: #4d89fa;
+    transition: 0.5 ease-in;
+}
+
+.ListaContado{
+    margin-top: 45px;
+    margin-right: 5px;
+    display: block;
+}
+.ListaContado h2{
+    margin-bottom: 25px;
+}
+.ListaContado ul li{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+li{
+    transition: 0.5s ease-in-out;
+    list-style: none;
+}
+
+#list li:hover{
+    position: relative;
+    transform: translate(24px);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    color: #969696;
+}
